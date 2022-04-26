@@ -1,0 +1,20 @@
+body {
+    direction: rtl;
+}
+html, body, ul, li, p, span, a, div, section, h1, h2, h3, h4, h5, h6, header, footer, button, label {
+    font-family: Vazir !important;
+}
+.login100-form-title-1 {font-family: Vazir !important;}
+.login100-form {padding: 43px 190px 93px 88px !important;}
+.label-input100 {
+    left: unset !important;
+    right: -105px !important;
+}
+.input100 {font-family: Vazir !important;}
+.label-checkbox100::before {left: unset !important;right: 0 !important;}
+.label-checkbox100 {
+    padding-left: unset !important;
+    padding-right: 26px !important;
+}
+.alert-validate::before {right: unset !important;left: 10px !important;padding: 4px 10px 4px 25px !important;}
+.alert-validate::after {right: unset !important;left: 15px !important;}
