@@ -1,6 +1,11 @@
+{% extends 'core/main.html' %}
+
+
+{% block content %}
 <ul>
     {% for model in device_models %}
-        <li><a href="#">{{model}}</a></li>
+    <li><a href="#">{{model}}</a></li>
     {% endfor %}
     
 </ul>
+{% endblock content %}

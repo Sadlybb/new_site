@@ -1,6 +1,24 @@
-<ul>
-    {% for device in devices %}
-        <li><a href="#">{{device}}</a></li>
-    {% endfor %}
-    
-</ul>
+{% extends 'core/main.html' %}
+
+{% block content %}
+    <br>
+
+    <div class="row">
+        <div class="col-md">
+            <div class="card card-body">
+                <h5>Devices</h5>
+            </div>
+            <div class="card card-body">
+                <table class="table">
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+        
+    </div>
+{% endblock content %}

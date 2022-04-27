@@ -34,3 +34,11 @@ class DeviceListView(ListView):
     model = Device
     template_name = 'core/devices/device_list.html'
     context_object_name = 'devices'
+
+
+def dashboard(request):
+    return render(request, 'core/dashboard.html')
+
+
+def customer(request):
+    return render(request, 'core/customers/customer.html')
